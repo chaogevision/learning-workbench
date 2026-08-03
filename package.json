@@ -1,0 +1,19 @@
+{
+  "name": "child-learning-adventure-base",
+  "version": "2.0.0",
+  "private": true,
+  "type": "module",
+  "description": "面向小学阶段的家庭学习工作台，集成成长激励系统V2、能力徽章、经验值、成长星、探索币、地图联动与完整六步预习",
+  "engines": {
+    "node": ">=18"
+  },
+  "scripts": {
+    "start": "node server.mjs",
+    "check": "node tests/static-check.mjs",
+    "smoke": "python3 tests/browser-smoke.py",
+    "api-smoke": "python3 tests/api-smoke.py",
+    "capture": "python3 tests/capture-screenshots.py",
+    "v15-smoke": "python3 tests/v15-product-smoke.py",
+    "growth-v2-smoke": "python3 tests/growth-v2-smoke.py"
+  }
+}

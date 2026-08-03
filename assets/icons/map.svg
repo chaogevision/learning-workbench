@@ -1,0 +1,9 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 64 64" role="img" aria-labelledby="title">
+<title>map</title>
+<defs>
+  <linearGradient id="bg" x1="0" y1="0" x2="1" y2="1"><stop stop-color="#ecfbff"/><stop offset="1" stop-color="#ffffff"/></linearGradient>
+  <filter id="s" x="-30%" y="-30%" width="160%" height="160%"><feDropShadow dx="0" dy="2" stdDeviation="2" flood-color="#163a75" flood-opacity=".16"/></filter>
+</defs>
+<rect x="4" y="4" width="56" height="56" rx="16" fill="url(#bg)"/>
+<g filter="url(#s)"><path d="m13 18 12-5 14 5 12-5v34l-12 5-14-5-12 5Z" fill="#fff" stroke="#17345f" stroke-width="3" stroke-linejoin="round"/><path d="M25 13v34M39 18v34" stroke="#4e92fa" stroke-width="3"/><circle cx="38" cy="30" r="6" fill="#ffcf4a" stroke="#17345f" stroke-width="2.5"/><path d="M38 36c-5-5-7-8-7-11a7 7 0 1 1 14 0c0 3-2 6-7 11Z" fill="#ff6b62" stroke="#17345f" stroke-width="2.5"/></g>
+</svg>

@@ -1,0 +1,9 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 64 64" role="img" aria-labelledby="title">
+<title>star</title>
+<defs>
+  <linearGradient id="bg" x1="0" y1="0" x2="1" y2="1"><stop stop-color="#fff9e9"/><stop offset="1" stop-color="#ffffff"/></linearGradient>
+  <filter id="s" x="-30%" y="-30%" width="160%" height="160%"><feDropShadow dx="0" dy="2" stdDeviation="2" flood-color="#163a75" flood-opacity=".16"/></filter>
+</defs>
+<rect x="4" y="4" width="56" height="56" rx="16" fill="url(#bg)"/>
+<g filter="url(#s)"><path d="m32 9 6.6 13.4 14.8 2.2-10.7 10.4 2.5 14.7L32 42.8 18.8 49.7l2.5-14.7L10.6 24.6l14.8-2.2Z" fill="#ffcc3f" stroke="#b97800" stroke-width="3" stroke-linejoin="round"/></g>
+</svg>

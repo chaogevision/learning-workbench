@@ -1,0 +1,9 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 64 64" role="img" aria-labelledby="title">
+<title>energy</title>
+<defs>
+  <linearGradient id="bg" x1="0" y1="0" x2="1" y2="1"><stop stop-color="#effff5"/><stop offset="1" stop-color="#ffffff"/></linearGradient>
+  <filter id="s" x="-30%" y="-30%" width="160%" height="160%"><feDropShadow dx="0" dy="2" stdDeviation="2" flood-color="#163a75" flood-opacity=".16"/></filter>
+</defs>
+<rect x="4" y="4" width="56" height="56" rx="16" fill="url(#bg)"/>
+<g filter="url(#s)"><path d="m35 10-18 26h13l-2 18 19-27H34Z" fill="#55d676" stroke="#17345f" stroke-width="3" stroke-linejoin="round"/></g>
+</svg>

@@ -1,0 +1,9 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 64 64" role="img" aria-labelledby="title">
+<title>trophy</title>
+<defs>
+  <linearGradient id="bg" x1="0" y1="0" x2="1" y2="1"><stop stop-color="#fff8e6"/><stop offset="1" stop-color="#ffffff"/></linearGradient>
+  <filter id="s" x="-30%" y="-30%" width="160%" height="160%"><feDropShadow dx="0" dy="2" stdDeviation="2" flood-color="#163a75" flood-opacity=".16"/></filter>
+</defs>
+<rect x="4" y="4" width="56" height="56" rx="16" fill="url(#bg)"/>
+<g filter="url(#s)"><path d="M23 14h18v15c0 7-4 12-9 12s-9-5-9-12Z" fill="#ffd35a" stroke="#17345f" stroke-width="3"/><path d="M23 20H12v5c0 7 5 11 12 11m17-16h11v5c0 7-5 11-12 11M32 41v8m-10 5h20" fill="none" stroke="#17345f" stroke-width="3" stroke-linecap="round"/></g>
+</svg>

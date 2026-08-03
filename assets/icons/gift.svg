@@ -1,0 +1,9 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 64 64" role="img" aria-labelledby="title">
+<title>gift</title>
+<defs>
+  <linearGradient id="bg" x1="0" y1="0" x2="1" y2="1"><stop stop-color="#fff1ef"/><stop offset="1" stop-color="#ffffff"/></linearGradient>
+  <filter id="s" x="-30%" y="-30%" width="160%" height="160%"><feDropShadow dx="0" dy="2" stdDeviation="2" flood-color="#163a75" flood-opacity=".16"/></filter>
+</defs>
+<rect x="4" y="4" width="56" height="56" rx="16" fill="url(#bg)"/>
+<g filter="url(#s)"><path d="M14 26h36v27H14z" fill="#ff6b6b" stroke="#17345f" stroke-width="3"/><path d="M11 20h42v10H11z" fill="#ff8c66" stroke="#17345f" stroke-width="3"/><path d="M28 20v33M36 20v33" stroke="#ffd65a" stroke-width="5"/><path d="M32 19c-8-8-15-9-16-4-1 5 5 7 16 4Zm0 0c8-8 15-9 16-4 1 5-5 7-16 4Z" fill="#ffd65a" stroke="#17345f" stroke-width="2"/></g>
+</svg>

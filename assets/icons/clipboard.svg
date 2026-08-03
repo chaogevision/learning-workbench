@@ -1,0 +1,9 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 64 64" role="img" aria-labelledby="title">
+<title>clipboard</title>
+<defs>
+  <linearGradient id="bg" x1="0" y1="0" x2="1" y2="1"><stop stop-color="#edf5ff"/><stop offset="1" stop-color="#ffffff"/></linearGradient>
+  <filter id="s" x="-30%" y="-30%" width="160%" height="160%"><feDropShadow dx="0" dy="2" stdDeviation="2" flood-color="#163a75" flood-opacity=".16"/></filter>
+</defs>
+<rect x="4" y="4" width="56" height="56" rx="16" fill="url(#bg)"/>
+<g filter="url(#s)"><rect x="16" y="14" width="32" height="40" rx="6" fill="#fff" stroke="#17345f" stroke-width="3"/><path d="M25 14c0-4 3-7 7-7s7 3 7 7" fill="#7cafff" stroke="#17345f" stroke-width="3"/><path d="m23 29 3 3 5-6m-8 15 3 3 5-6M35 29h7M35 41h7" fill="none" stroke="#43bd6d" stroke-width="3" stroke-linecap="round" stroke-linejoin="round"/></g>
+</svg>

@@ -1,0 +1,9 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 64 64" role="img" aria-labelledby="title">
+<title>lock</title>
+<defs>
+  <linearGradient id="bg" x1="0" y1="0" x2="1" y2="1"><stop stop-color="#eef1f5"/><stop offset="1" stop-color="#ffffff"/></linearGradient>
+  <filter id="s" x="-30%" y="-30%" width="160%" height="160%"><feDropShadow dx="0" dy="2" stdDeviation="2" flood-color="#163a75" flood-opacity=".16"/></filter>
+</defs>
+<rect x="4" y="4" width="56" height="56" rx="16" fill="url(#bg)"/>
+<g filter="url(#s)"><rect x="15" y="28" width="34" height="27" rx="6" fill="#44536c" stroke="#17345f" stroke-width="3"/><path d="M22 28v-7a10 10 0 0 1 20 0v7" fill="none" stroke="#17345f" stroke-width="4"/><circle cx="32" cy="41" r="4" fill="#ffd35a"/></g>
+</svg>

@@ -1,0 +1,9 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 64 64" role="img" aria-labelledby="title">
+<title>math</title>
+<defs>
+  <linearGradient id="bg" x1="0" y1="0" x2="1" y2="1"><stop stop-color="#edf4ff"/><stop offset="1" stop-color="#ffffff"/></linearGradient>
+  <filter id="s" x="-30%" y="-30%" width="160%" height="160%"><feDropShadow dx="0" dy="2" stdDeviation="2" flood-color="#163a75" flood-opacity=".16"/></filter>
+</defs>
+<rect x="4" y="4" width="56" height="56" rx="16" fill="url(#bg)"/>
+<g filter="url(#s)"><path d="M15 15h34v34H15z" fill="#4d8df7" stroke="#17345f" stroke-width="3"/><path d="M22 25h9m-4.5-4.5v9M36 22l7 7m0-7-7 7M22 39h9M36 36h7m-7 7h7" stroke="#fff" stroke-width="3" stroke-linecap="round"/></g>
+</svg>

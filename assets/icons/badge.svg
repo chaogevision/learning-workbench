@@ -1,0 +1,9 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 64 64" role="img" aria-labelledby="title">
+<title>badge</title>
+<defs>
+  <linearGradient id="bg" x1="0" y1="0" x2="1" y2="1"><stop stop-color="#eef1ff"/><stop offset="1" stop-color="#ffffff"/></linearGradient>
+  <filter id="s" x="-30%" y="-30%" width="160%" height="160%"><feDropShadow dx="0" dy="2" stdDeviation="2" flood-color="#163a75" flood-opacity=".16"/></filter>
+</defs>
+<rect x="4" y="4" width="56" height="56" rx="16" fill="url(#bg)"/>
+<g filter="url(#s)"><path d="M32 9 49 18v18c0 10-7 17-17 20-10-3-17-10-17-20V18Z" fill="#6b8cff" stroke="#17345f" stroke-width="3"/><path d="m32 20 3.6 7.3 8 .9-5.8 5.6 1.5 8-7.3-3.8-7.3 3.8 1.5-8-5.8-5.6 8-.9Z" fill="#ffd35a" stroke="#fff" stroke-width="1.5"/></g>
+</svg>

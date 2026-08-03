@@ -1,0 +1,39 @@
+{
+  "passed": true,
+  "checks": [
+    "首页加载",
+    "儿童档案与吉祥物名称同步",
+    "手动添加任务",
+    "服务端 Mock 生成任务",
+    "任务证据与完成奖励",
+    "六步预习逐题交互与苏格拉底引导",
+    "地图区域交互",
+    "成长数据导出",
+    "控制台无错误",
+    "390px 手机无横向溢出"
+  ],
+  "consoleErrors": [],
+  "viewport": {
+    "desktop": [
+      1440,
+      1080
+    ],
+    "mobile": [
+      390,
+      844
+    ]
+  },
+  "manualTaskCounts": {
+    "before": 0,
+    "after": 4
+  },
+  "taskCounts": {
+    "beforeGenerate": 4,
+    "afterGenerate": 6
+  },
+  "mobileDimensions": {
+    "scrollWidth": 390,
+    "innerWidth": 390
+  },
+  "serverOutput": "孩子学习冒险基地 V2.0 已启动：http://127.0.0.1:4399\nAPI 模式：mock（无需密钥）\n"
+}

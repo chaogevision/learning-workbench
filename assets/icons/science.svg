@@ -1,0 +1,9 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 64 64" role="img" aria-labelledby="title">
+<title>science</title>
+<defs>
+  <linearGradient id="bg" x1="0" y1="0" x2="1" y2="1"><stop stop-color="#fff0f6"/><stop offset="1" stop-color="#ffffff"/></linearGradient>
+  <filter id="s" x="-30%" y="-30%" width="160%" height="160%"><feDropShadow dx="0" dy="2" stdDeviation="2" flood-color="#163a75" flood-opacity=".16"/></filter>
+</defs>
+<rect x="4" y="4" width="56" height="56" rx="16" fill="url(#bg)"/>
+<g filter="url(#s)"><path d="M26 12h12m-9 0v14L16 48a5 5 0 0 0 4 8h24a5 5 0 0 0 4-8L35 26V12" fill="#ff72a5" stroke="#17345f" stroke-width="3" stroke-linecap="round" stroke-linejoin="round"/><path d="M20 45h24" stroke="#fff" stroke-width="3"/><circle cx="27" cy="40" r="3" fill="#ffd35a"/><circle cx="37" cy="48" r="3" fill="#61c9ff"/></g>
+</svg>

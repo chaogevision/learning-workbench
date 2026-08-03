@@ -1,0 +1,9 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 64 64" role="img" aria-labelledby="title">
+<title>chart</title>
+<defs>
+  <linearGradient id="bg" x1="0" y1="0" x2="1" y2="1"><stop stop-color="#edf5ff"/><stop offset="1" stop-color="#ffffff"/></linearGradient>
+  <filter id="s" x="-30%" y="-30%" width="160%" height="160%"><feDropShadow dx="0" dy="2" stdDeviation="2" flood-color="#163a75" flood-opacity=".16"/></filter>
+</defs>
+<rect x="4" y="4" width="56" height="56" rx="16" fill="url(#bg)"/>
+<g filter="url(#s)"><path d="M15 50V31h8v19Zm13 0V18h8v32Zm13 0V25h8v25Z" fill="#5f9fff" stroke="#17345f" stroke-width="2.5"/><path d="m15 25 11-7 10 4 13-11" fill="none" stroke="#ffb12e" stroke-width="3" stroke-linecap="round" stroke-linejoin="round"/></g>
+</svg>
