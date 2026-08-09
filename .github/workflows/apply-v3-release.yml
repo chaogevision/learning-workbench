@@ -1,0 +1,68 @@
+name: Apply V3.0 Alpha release
+
+on:
+  push:
+    branches: [main]
+    paths:
+      - '.github/workflows/apply-v3-release.yml'
+
+permissions:
+  contents: write
+
+jobs:
+  apply-v3:
+    if: github.actor != 'github-actions[bot]'
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+        with:
+          fetch-depth: 0
+
+      - name: Download staged V3 source blob
+        env:
+          GH_TOKEN: ${{ github.token }}
+          BLOB_SHA: f634b99b7c860b38d96b921ba1607dea42b7360c
+        shell: bash
+        run: |
+          set -euo pipefail
+          python - <<'PY'
+          import base64, json, os, urllib.request
+          repo = os.environ['GITHUB_REPOSITORY']
+          sha = os.environ['BLOB_SHA']
+          token = os.environ['GH_TOKEN']
+          req = urllib.request.Request(
+              f'https://api.github.com/repos/{repo}/git/blobs/{sha}',
+              headers={
+                  'Authorization': f'Bearer {token}',
+                  'Accept': 'application/vnd.github+json',
+                  'X-GitHub-Api-Version': '2022-11-28',
+              },
+          )
+          with urllib.request.urlopen(req) as response:
+              data = json.load(response)
+          payload = base64.b64decode(data['content'])
+          open('/tmp/v3-source-overlay.zip', 'wb').write(payload)
+          print('Downloaded bytes:', len(payload))
+          PY
+
+      - name: Restore V3 source tree
+        shell: bash
+        run: |
+          set -euo pipefail
+          python -m zipfile -e /tmp/v3-source-overlay.zip .
+          rm -rf .v3-overlay
+          rm -f .github/workflows/apply-v3-release.yml
+
+      - name: Commit V3.0 Alpha
+        shell: bash
+        run: |
+          set -euo pipefail
+          git config user.name "github-actions[bot]"
+          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+          git add -A
+          if git diff --cached --quiet; then
+            echo "No changes to commit"
+            exit 0
+          fi
+          git commit -m "Release V3.0 Alpha curriculum package platform"
+          git push
